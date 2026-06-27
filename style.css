@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero{
+    display: flex;
+    padding: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+.hero-text{
+    padding: 100px;
+    color: white;
+}
+.hero-text h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero-text p{
+    padding: 20px 0;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 30px;
+}
+.hero-button{
+    padding: 10px 50px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+}
+img{
+    border-radius: 15px;
+}
+.hero-img{
+    padding-right: 100px;
+}
+.main-section h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 38px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 88px;
+    padding: 50px;
+}
+.cards .card img{
+    width: 260px;
+}
+.quote{
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 50px;
+}
+.author{
+    padding-left: 500px;
+    font-weight: 700;
+}
+.cta-section{
+    padding: 80px 250px;
+}
+.cta{
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-p{
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+}
+.text p{
+    color: white;
+}
+.cta-button{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 20px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
